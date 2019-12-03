@@ -4,7 +4,9 @@
   "description": "My nodeJS way",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "task1": "nodemon ./task1/server.js",
+    "task2": "nodemon ./task2/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/valuev8/node-js-learn/issues"
   },
-  "homepage": "https://github.com/valuev8/node-js-learn#readme"
+  "homepage": "https://github.com/valuev8/node-js-learn#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "nodemon": "^2.0.1"
+  }
 }
