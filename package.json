@@ -1,0 +1,19 @@
+{
+  "name": "js-learn",
+  "version": "1.0.0",
+  "description": "My nodeJS way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valuev8/node-js-learn.git"
+  },
+  "author": "Anton Valuiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valuev8/node-js-learn/issues"
+  },
+  "homepage": "https://github.com/valuev8/node-js-learn#readme"
+}
