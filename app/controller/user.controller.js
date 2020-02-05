@@ -10,17 +10,17 @@ router.route('/api/users/:id')
     .get((req, res) => {
         UserService.getUser(req.params.id)
             .then((user) => res.json(user))
-            .catch((err) => res.json(err))
+            .catch((err) => res.json(err));
     })
     .put((req, res) => {
         UserService.updateUser(req.body, req.params.id)
             .then((user) => res.json(user))
-            .catch((err) => res.json(err))
+            .catch((err) => res.json(err));
     })
     .delete((req, res) => {
         UserService.deleteUser(req.params.id)
             .then((user) => res.json(user))
-            .catch((err) => res.json(err))
+            .catch((err) => res.json(err));
     });
 
 router.route('/api/users')
