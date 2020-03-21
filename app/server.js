@@ -8,7 +8,7 @@ const routes = require('./routes');
 const logMiddleware = require('./log/logging-middleware');
 const auth = require('./auth/auth');
 const logger = require('./log/logger');
-const port = 3000;
+const port = process.env.DB_PORT;
 
 app.use(express.json());
 app.use(cors());
